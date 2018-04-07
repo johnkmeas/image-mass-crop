@@ -1,80 +1,52 @@
-# Project Title
+# Automated image optimizer and resizer
 
-One Paragraph of project description goes here
+A simple gulpfile to automate resizing and optimization images for the web.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Currently this gulpfile is setup to resize and optimize all images in **./assets/images/home**.
+Load that up with some images and run the script. All outputted images will be found in **./images/home**.
+
+You will need a computer with Node installed.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You will need these software installed on your system:
+* Graphicsmagick
+* Gulp
+
+Install on Mac
 
 ```
-Give examples
+brew install graphicsmagick
+```
+```
+npm install -g gulp
 ```
 
-### Installing
+### Installation
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Install gulp plugins.
 
 ```
-Give the example
+npm install
 ```
 
-And repeat
+## Usage
+
+Place images into home folder - **./assets/images/home**
+
+Run default gulp task.
 
 ```
-until finished
+gulp
 ```
+Processed images will output to **./images/home**
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **John Meas** [github](https://github.com/johnkmeas)
 
 ## License
 
@@ -82,6 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Ryant Brown https://gist.github.com/ryantbrown/239dfdad465ce4932c81
