@@ -4,8 +4,10 @@ A simple gulpfile to automate resizing and optimization images for the web.
 
 ## Getting Started
 
-Currently this gulpfile is setup to resize and optimize all images in **./assets/images/home**.
-Load that up with some images and run the script. All outputted images will be found in **./images/home**.
+Currently this gulpfile is setup to resize and optimize all images in **./assets/images/large**.
+Load that up with some images and run the script. All outputted images will be found in **./images/large**.
+
+Feel free to created additional folders inside of the **./assets/images/** folder for your needs and modify gulpfile.
 
 You will need a computer with Node installed.
 
@@ -34,14 +36,16 @@ npm install
 
 ## Usage
 
-Place images into home folder - **./assets/images/home**
+Place images into home folder - **./assets/images/large**
 
 Run default gulp task.
 
 ```
 gulp
 ```
-Processed images will output to **./images/home**
+Processed images will output to **./images/large**
+
+If output folder doesn't exist, then it will be automatically generated.
 
 
 ## Authors
