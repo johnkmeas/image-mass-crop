@@ -47,6 +47,16 @@ Processed images will output to **./images/large**
 
 If output folder doesn't exist, then it will be automatically generated.
 
+## Additional Resources and Info
+
+**npm packages used**
+
+* [gulp](https://gulpjs.com/)
+* [gulp-image-resize](https://github.com/scalableminds/gulp-image-resize)
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
+* [gulp-rename](https://github.com/hparra/gulp-rename)
+* [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant)
+
 
 ## Authors
 
